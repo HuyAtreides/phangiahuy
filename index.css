@@ -105,6 +105,10 @@ i:hover {
   transition: background-color 0.3s;
 }
 
+button:focus {
+  outline: none !important;
+}
+
 .resume-button:hover {
   background-color: #21c2f8 !important;
 }
@@ -161,6 +165,12 @@ nav {
 .contact a {
   color: #ffffff;
   transition: color 0.3s;
+  font-size: 30px;
+}
+.contact p {
+  margin-top: 30px;
+  margin-bottom: 0;
+  color: #ffffff;
   font-size: 30px;
 }
 .contact a:hover {
